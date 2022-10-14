@@ -41,7 +41,7 @@ class SavingAccount(Account):
         self.interestamount = (p * t * r)/100
         print("interestamount is :",self.interestamount)
         
-Account_obj = Account()
+Account_obj = Account(1)
 Account_obj.deposit(1)
 Account_obj.withdrawal(1)
 Account_obj.getBalance()
